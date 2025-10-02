@@ -160,7 +160,7 @@ void readAnswer(string type,string dificality) {
 		cin >> answer;
 		canswer = x / y;
 	}
-	if (dificality == "mix" && type == "Mix") {
+	else if (dificality == "mix" && type == "Mix") {
 		int x = randomNum(1, 100);
 		int y = randomNum(1, 100);
 
