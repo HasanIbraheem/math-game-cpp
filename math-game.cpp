@@ -261,6 +261,7 @@ void startGame() {
 }
 				
 int main() {
+	srand((unsigned)time(NULL));
 	startGame();
 
 }
